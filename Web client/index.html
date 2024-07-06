@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="img/icono.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&display=swap" rel="stylesheet">
+	<title>PiMi</title>
+</head>
+<body>
+	<header>
+			<h1 align="center">PiMi</h1>
+			<h2 align="center">Mini project Manager</h2>
+	</header>
+	<main>
+		<section>
+		<p>Seleccione el colaborador a quien se le asignara la tarea:
+		<select name="listado">
+		  <option value="usuario1" selected>Colaborador 1</option>
+		  <option value="usuario2">Colaborador 2</option>
+		  <option value="usuario3">Colaborador 3</option>
+		</select>
+		</p>
+		</section>
+		<section>
+		<p>
+			Escriba la tarea que va a realizar el colaborador:
+			<input type="text" name="Tarea" size="80">
+		</p>
+		</section>
+		<section>
+			¿Cual es la fecha limite para la tarea?
+			<input type="date" size="80">
+		</section>
+	</main>
+	<hr>
+	<section>
+		<p>Registro previo de actividades concluidas:</p>
+		<table>
+			<thead>
+		            <tr>
+		                <th>Nombre de la tarea</th>
+		                <th>Colaborador</th>
+		                <th>Estado de la tarea</th>
+		                <th>Fecha limite de entrega</th>
+		                <th>Avance total</th>
+		            </tr>
+		        </thead>
+		        <tbody>
+		        	<tr>
+		        		<td>Proyecto 1</td>
+		        		<td>Colaborador 1</td>
+		        		<td>Completado</td>
+		        		<td>20/07/2024</td>
+		        		<td>100%</td>
+		        	</tr>
+		        	<tr>
+		        		<td>Proyecto 2</td>
+		        		<td>Colaborador 2</td>
+		        		<td>Completado</td>
+		        		<td>23/07/2024</td>
+		        		<td>100%</td>
+		        	</tr>
+		        	<tr>
+		        		<td>Proyecto 3</td>
+		        		<td>Colaborador 3</td>
+		        		<td>Sin empezar</td>
+		        		<td>01/02/2024</td>
+		        		<td>100%</td>
+		        	</tr>
+		        </tbody>
+		</table>
+	</section>
+	<footer>
+			Notion / GitHub - Hackaction 2024
+	</footer>
+	
+</body>
+</html>
